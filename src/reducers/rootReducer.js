@@ -1,7 +1,11 @@
 import { combineReducers } from 'redux';
 
-import someReducer from './someReducer';
+import citiesReducer from './citiesReducer';
+import progressReducer from './progressReducer';
+import demoReducer from './demoReducer';
 
 export default combineReducers({
-  someReducer,
+  citiesReducer,
+  progressReducer,
+  demoReducer
 });

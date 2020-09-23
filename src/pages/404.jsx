@@ -2,10 +2,10 @@ import React from 'react';
 import App from './../containers/App';
 import AppSlide from '../components/Slide';
 
-const IndexPage = () => (
+const Err404Page = () => (
   <App>
-    <AppSlide />
+    404
   </App>
 );
 
-export default IndexPage;
+export default Err404Page;

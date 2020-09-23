@@ -2,11 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-
-import '../atoms/theme/index.scss';
-
-import Header from '../components/Nav/Nav';
-import Footer from '../components/Progress/Progress';
+import '../sass/style.scss';
+import AppNav from '../components/Nav';
+import AppProgress from '../components/Progress';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -30,11 +28,11 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Header />
-        <div className="mainWrapper">
+        <AppNav />
+        <main className="mainWrapper">
           {children}
-        </div>
-        <Footer />
+        </main>
+        <AppProgress />
       </>
     )}
   />

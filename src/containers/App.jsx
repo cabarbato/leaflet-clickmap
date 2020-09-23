@@ -1,6 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
 import { Provider } from 'react-redux';
 import store from '../store/store';
 
@@ -13,9 +11,5 @@ const App = ({ children }) => (
     </Layout>
   </Provider>
 );
-
-App.propTypes = {
-  children: PropTypes.any.isRequired,
-};
 
 export default App;
