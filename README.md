@@ -1,4 +1,7 @@
 
+#### Progress: 
+![20%](https://progress-bar.dev/20/?width=400)
+
 ## 🍃 Leaflet Clickmap
 
 This is a sample front-end to use for clickmap surveys. It collects the coordinates clicked by the user and any demographic data from the last slide and stores it in Redux.
