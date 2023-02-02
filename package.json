@@ -5,7 +5,7 @@
   "author": "Colleen Barbato",
   "dependencies": {
     "bootstrap": "^4.1.3",
-    "gatsby": "^2.13.55",
+    "gatsby": "^5.5.0",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-react-leaflet": "^2.0.13",
     "gatsby-plugin-sass": "^2.0.1",
